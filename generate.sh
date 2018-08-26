@@ -12,7 +12,7 @@ services:
       - ./data/gitea:/data
     ports:
       - "3000:3000"
-      - "22:22"
+      - "2222:22"
     depends_on:
       - db
     restart: always
