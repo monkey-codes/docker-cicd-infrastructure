@@ -84,4 +84,4 @@ tee -a docker-compose.yml <<EOF
 EOF
 
 done
-docker-compose build proxy
+#docker-compose build proxy
